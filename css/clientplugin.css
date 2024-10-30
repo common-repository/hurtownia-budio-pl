@@ -1,0 +1,74 @@
+.budio-partner-container {
+    width: 100%;
+    padding-top: 15px;
+    position: relative;
+    z-index:1000;
+    background-color: #fff;
+}
+
+.budio-partner-container a,
+.budio-partner-container a:visited {
+    font-family: 'Roboto', sans-serif;
+    color: #4592FF;
+}
+.links a {
+    margin-right: 20px;
+}
+
+.budio-logo-container {
+    text-align: right;
+    padding-right: 25px;
+}
+
+.budio-partner-container .grupa-link {
+    width: 165px;
+    margin-bottom: 5px;
+}
+
+.budio-logo-container,
+.budio-apps-container {
+    width: 49%;
+    float: left;
+}
+.grupa-link img {
+    max-height: 40px;
+    max-width: 160px;
+}
+
+.budio-logo-container {
+    right: 100px;
+    padding-bottom: 45px;
+}
+
+.budio-partner-container .budio-logo-container .head {
+    margin-bottom: 3px;
+    padding-right: 50px;
+}
+
+.budio-partner-container .head {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #282F36;
+}
+.budio-partner-container .links {
+    padding-right: 17px;
+}
+
+.budio-apps-container .badges img {
+    width: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .budio-logo-container,
+  .budio-apps-container {
+      width: 100%;
+      float: left;
+      padding-left:25px;
+      padding-bottom: 25px;
+  }
+  .budio-logo-container {
+      right: none;
+      text-align: left;
+      padding-bottom: 10px;
+  }
+}
